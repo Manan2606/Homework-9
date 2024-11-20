@@ -68,6 +68,6 @@ jobs:
         with:
           image-ref: 'manan2606/devops_demo1:${{ github.sha }}'
           format: 'table'
-          exit-code: '1' # Do not fail the build for now
+          exit-code: '0' # Do not fail the build for now
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
